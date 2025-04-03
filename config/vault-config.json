@@ -1,0 +1,10 @@
+{
+  "type": "hashicorp",
+  "hashicorp": {
+    "address": "http://127.0.0.1:8200",
+    "token": "root",
+    "secretName": "sanbus-network/validator-0",
+    "mountPath": "secret",
+    "namespace": ""
+  }
+}

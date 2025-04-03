@@ -1,0 +1,75 @@
+{
+    "name": "sanbus-network",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f850f848f846941a99aff1682039d0916e7e3f4184b2bbdce758a8b099d357ef751822ee49298f5bd31315ba82c4ed29cb5c2d1fe08c6ecc31806739588bae2ba36e7646201d8f68cc95434b80c28080c080",
+        "gasLimit": "0x989680",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0x83b9cc8Dc37c09512CC23502cB68f05386aca81d": {
+                "balance": "0xa56fa5b99019a5c8000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "baseFee": "0x0",
+        "baseFeeEM": "0x0",
+        "baseFeeChangeDenom": "0x0"
+    },
+    "params": {
+        "forks": {
+            "EIP150": {
+                "block": 0
+            },
+            "EIP155": {
+                "block": 0
+            },
+            "EIP158": {
+                "block": 0
+            },
+            "byzantium": {
+                "block": 0
+            },
+            "constantinople": {
+                "block": 0
+            },
+            "homestead": {
+                "block": 0
+            },
+            "istanbul": {
+                "block": 0
+            },
+            "londonfix": {
+                "block": 0
+            },
+            "petersburg": {
+                "block": 0
+            },
+            "quorumcalcalignment": {
+                "block": 0
+            },
+            "txHashWithType": {
+                "block": 0
+            }
+        },
+        "chainID": 1101,
+        "engine": {
+            "ibft": {
+                "blockTime": 2000000000,
+                "epochSize": 100000,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0,
+        "burnContract": null,
+        "burnContractDestinationAddress": "0x0000000000000000000000000000000000000000"
+    },
+    "bootnodes": [
+        "/ip4/127.0.0.1/tcp/1478/p2p/16Uiu2HAm1pargxKEqHB37DmTTrsBhwn6HW3iCL3iwrMtRC4xSBh3"
+    ]
+}
